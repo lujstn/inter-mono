@@ -2,7 +2,7 @@
 
 ------------
 
-<p align="center"><a href="https://github.com/be5invis/Iosevka/releases#gh-light-mode-only"><img src="images/button-release.light.svg#gh-light-mode-only" title="Release"></a><a href="https://github.com/be5invis/Iosevka/releases#gh-dark-mode-only"><img src="images/button-release.dark.svg#gh-dark-mode-only" title="Release"></a> <a href="https://be5invis.github.io/Iosevka/customizer#gh-light-mode-only"><img src="images/button-customize.light.svg#gh-light-mode-only" title="Customizer"></a><a href="https://be5invis.github.io/Iosevka/customizer#gh-dark-mode-only"><img src="images/button-customize.dark.svg#gh-dark-mode-only" title="Customizer"></a> <a href="https://be5invis.github.io/Iosevka/specimen#gh-light-mode-only"><img src="images/button-specimen.light.svg#gh-light-mode-only" title="Specimen"></a><a href="https://be5invis.github.io/Iosevka/specimen#gh-dark-mode-only"><img src="images/button-specimen.dark.svg#gh-dark-mode-only" title="Specimen"></a></p>
+<p align="center"><a href="https://github.com/lujstn/inter-mono/releases#gh-light-mode-only"><img src="images/button-release.light.svg#gh-light-mode-only" title="Release"></a><a href="https://github.com/lujstn/inter-mono/releases#gh-dark-mode-only"><img src="images/button-release.dark.svg#gh-dark-mode-only" title="Release"></a> <a href="https://be5invis.github.io/Iosevka/customizer#gh-light-mode-only"><img src="images/button-customize.light.svg#gh-light-mode-only" title="Customizer"></a><a href="https://be5invis.github.io/Iosevka/customizer#gh-dark-mode-only"><img src="images/button-customize.dark.svg#gh-dark-mode-only" title="Customizer"></a> <a href="https://be5invis.github.io/Iosevka/specimen#gh-light-mode-only"><img src="images/button-specimen.light.svg#gh-light-mode-only" title="Specimen"></a><a href="https://be5invis.github.io/Iosevka/specimen#gh-dark-mode-only"><img src="images/button-specimen.dark.svg#gh-dark-mode-only" title="Specimen"></a></p>
 
 **Iosevka** \[ˌjɔˈseβ.kʰa\] is an *open-source*, *sans-serif* + *slab-serif*, *monospace* + *quasi‑proportional* typeface family, designed for *writing code*, using in *terminals*, and preparing *technical documents*.
 
@@ -10,10 +10,10 @@
 
 ### Installing from GitHub Releases
 
-1. Download your font package from [releases](https://github.com/be5invis/Iosevka/releases).
+1. Download your font package from [releases](https://github.com/lujstn/inter-mono/releases).
   * For Linux users you could use the following command to download all the TTC packages in the latest release:
     ```bash
-    curl -s 'https://api.github.com/repos/be5invis/Iosevka/releases/latest' | jq -r ".assets[] | .browser_download_url" | grep PkgTTC-Iosevka | xargs -n 1 curl -L -O --fail --silent --show-error
+    curl -s 'https://api.github.com/repos/lujstn/inter-mono/releases/latest' | jq -r ".assets[] | .browser_download_url" | grep PkgTTC-Iosevka | xargs -n 1 curl -L -O --fail --silent --show-error
     ```
 2. Quit all your editors / programs.
 3. Unarchive the font package and you will see the font files.
@@ -119,14 +119,6 @@ Please note that, due to the complex interactions when forming ligations, cherry
 
 <table><tr><td><h2><a href="doc/custom-build.md">Read instructions.</a></h2></td></tr></table>
 
-## For Chinese, Japanese and Korean (CJK) users...
-
-→ [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic).
-
-## Mirrors
-
-- TUNA (CN): https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Iosevka
-- NJU (CN): https://mirrors.nju.edu.cn/github-release/be5invis/Iosevka
 ---
 
 ![Family Matrix](images/matrix.light.svg#gh-light-mode-only)![Family Matrix](images/matrix.dark.svg#gh-dark-mode-only)

@@ -3,8 +3,8 @@ import path from "path";
 
 import { ImgX, MdCol } from "../md-format-tools.mjs";
 
-const ImagePrefixNoVersion = `https://raw.githubusercontent.com/be5invis/Iosevka`;
-const DownloadLinkPrefixNoVersion = `https://github.com/be5invis/Iosevka/releases/download`;
+const ImagePrefixNoVersion = `https://raw.githubusercontent.com/lujstn/inter-mono`;
+const DownloadLinkPrefixNoVersion = `https://github.com/lujstn/inter-mono/releases/download`;
 
 export default async function processPackageList(argv, dirs) {
 	const imagePrefix = `${ImagePrefixNoVersion}/v${argv.version}/images`;

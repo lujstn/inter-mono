@@ -4,10 +4,10 @@
 
 To make the font, first you need to have the files that contain the repository’s source code. Here are two ways:
 
- * Download [the archive of Iosevka’s source code](https://github.com/be5invis/Iosevka/archive/refs/heads/main.zip), then extract its contents into somewhere on your computer.
+ * Download [the archive of Iosevka’s source code](https://github.com/lujstn/inter-mono/archive/refs/heads/main.zip), then extract its contents into somewhere on your computer.
  * [Cloning](https://git-scm.com/docs/git-clone) this repository using [Git](https://git-scm.com/): 
     ```
-    git clone --depth 1 https://github.com/be5invis/Iosevka.git 
+    git clone --depth 1 https://github.com/lujstn/inter-mono.git 
     ```
 
 ### Building
@@ -4024,7 +4024,7 @@ For example, the following configuration:
 
 #### Sample Configuration
 
-A sample configuration could be found at [private-build-plans.sample.toml](https://github.com/be5invis/Iosevka/blob/master/private-build-plans.sample.toml).
+A sample configuration could be found at [private-build-plans.sample.toml](https://github.com/lujstn/inter-mono/blob/master/private-build-plans.sample.toml).
 
 ### TTC Building
 

@@ -5,7 +5,7 @@ on: [pull_request]
 jobs:
   build:
     name: Build ${{ matrix.fontName }} font
-    if: github.repository == 'be5invis/Iosevka'
+    if: github.repository == 'lujstn/inter-mono'
     runs-on: ubuntu-latest
 
     strategy:

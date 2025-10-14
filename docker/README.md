@@ -1,6 +1,6 @@
 ## Make docker image
 ```
-git clone --depth=1 https://github.com/be5invis/Iosevka.git $HOME/mkdkimg
+git clone --depth=1 https://github.com/lujstn/inter-mono.git $HOME/mkdkimg
 cd $HOME/mkdkimg/docker
 docker build -t=fontcc .
 docker images | grep fontcc  # Confirm that the docker image is generated successfully

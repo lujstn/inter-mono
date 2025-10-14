@@ -36,8 +36,8 @@ async function GenerateChangeList(argv, out) {
 }
 export default async function main(argv) {
 	const out = new MdCol("Release-Note");
-	const baseUrl = `https://github.com/be5invis/Iosevka/blob/v${argv.version}/doc`;
-	const releaseUrl = `https://github.com/be5invis/Iosevka/releases/download/v${argv.version}`;
+	const baseUrl = `https://github.com/lujstn/inter-mono/blob/v${argv.version}/doc`;
+	const releaseUrl = `https://github.com/lujstn/inter-mono/releases/download/v${argv.version}`;
 
 	out.log(
 		`<table>\n` +

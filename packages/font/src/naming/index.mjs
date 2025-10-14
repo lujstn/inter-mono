@@ -253,9 +253,9 @@ const WeightToMenuMap = {
 	400: "",
 	450: "Book",
 	500: "Medium",
-	600: "Semibold",
+	600: "Semi Bold",
 	700: "Bold",
-	800: "Extrabold",
+	800: "Extra Bold",
 	900: "Heavy",
 };
 const WidthToMenuMap = {

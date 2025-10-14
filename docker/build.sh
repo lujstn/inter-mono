@@ -30,13 +30,13 @@ cd $TMP_BUD
 echo "Fonts building param: $BUILD_ARGS"
 
 [[ -z "$VERSION_TAG" ]] && VERSION_TAG=$(curl -Ls --max-filesize 4096 \
-    'https://api.github.com/repos/be5invis/Iosevka/releases' \
+    'https://api.github.com/repos/lujstn/inter-mono/releases' \
     | grep -m1 -Po '(?<="tag_name": ")v[\d\.]+')
 echo "Downloading source code tarball ${VERSION_TAG}"
 
-TARGZ_URL="https://github.com/be5invis/Iosevka/archive/${VERSION_TAG}.tar.gz"
+TARGZ_URL="https://github.com/lujstn/inter-mono/archive/${VERSION_TAG}.tar.gz"
 if [[ "main" == "$VERSION_TAG" ]] || [[ "dev" == "$VERSION_TAG" ]]; then
-    TARGZ_URL="https://github.com/be5invis/Iosevka/archive/refs/heads/${VERSION_TAG}.tar.gz"
+    TARGZ_URL="https://github.com/lujstn/inter-mono/archive/refs/heads/${VERSION_TAG}.tar.gz"
 fi
 curl -LSOs "$TARGZ_URL" \
     && tar -xf "${VERSION_TAG}.tar.gz" || {
