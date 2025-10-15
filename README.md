@@ -1,124 +1,195 @@
-<p align="center"> <img src="images/grand-title.light.svg#gh-light-mode-only" title="Iosevka Grand Title"><img src="images/grand-title.dark.svg#gh-dark-mode-only" title="Iosevka Grand Title"/> </p>
+![Inter Mono](gh_cover.png)
 
-------------
+# Inter Mono
 
-<p align="center"><a href="https://github.com/lujstn/inter-mono/releases#gh-light-mode-only"><img src="images/button-release.light.svg#gh-light-mode-only" title="Release"></a><a href="https://github.com/lujstn/inter-mono/releases#gh-dark-mode-only"><img src="images/button-release.dark.svg#gh-dark-mode-only" title="Release"></a> <a href="https://be5invis.github.io/Iosevka/customizer#gh-light-mode-only"><img src="images/button-customize.light.svg#gh-light-mode-only" title="Customizer"></a><a href="https://be5invis.github.io/Iosevka/customizer#gh-dark-mode-only"><img src="images/button-customize.dark.svg#gh-dark-mode-only" title="Customizer"></a> <a href="https://be5invis.github.io/Iosevka/specimen#gh-light-mode-only"><img src="images/button-specimen.light.svg#gh-light-mode-only" title="Specimen"></a><a href="https://be5invis.github.io/Iosevka/specimen#gh-dark-mode-only"><img src="images/button-specimen.dark.svg#gh-dark-mode-only" title="Specimen"></a></p>
+A monospace variation of [Iosevka](https://github.com/be5invis/Iosevka), designed to match [Inter](https://rsms.me/inter/) and Apple's SF font series.
 
-**Iosevka** \[ˌjɔˈseβ.kʰa\] is an *open-source*, *sans-serif* + *slab-serif*, *monospace* + *quasi‑proportional* typeface family, designed for *writing code*, using in *terminals*, and preparing *technical documents*.
+## Download
 
-## Installation
-
-### Installing from GitHub Releases
-
-1. Download your font package from [releases](https://github.com/lujstn/inter-mono/releases).
-  * For Linux users you could use the following command to download all the TTC packages in the latest release:
-    ```bash
-    curl -s 'https://api.github.com/repos/lujstn/inter-mono/releases/latest' | jq -r ".assets[] | .browser_download_url" | grep PkgTTC-Iosevka | xargs -n 1 curl -L -O --fail --silent --show-error
-    ```
-2. Quit all your editors / programs.
-3. Unarchive the font package and you will see the font files.
-4. Take actions depending on your OS:
-    * **Windows**: Select the font files and drag into font [settings](ms-settings:fonts) / font control panel page.  
-      * On Windows 10 1809 or newer, the default font installation is per-user, and it may cause compatibility issues for some applications, mostly written in Java. To cope with this, right click and select “Install for all users” instead. [Ref.](https://youtrack.jetbrains.com/issue/JRE-1166?p=IDEA-200145)
-    * **macOS**: [Follow instructions here](http://support.apple.com/kb/HT2509).
-    * **Linux** : Copy the font files to your fonts directory then run `sudo fc-cache`.
-
-### Installing via Package Managers
-
-*Disclaimer: This repository does not maintain any package manager distribution. The packages listed below may not always be up-to-date.*
-
-  * **macOS**
-    * Standard distribution in Homebrew:
-      ```bash
-      brew install --cask font-iosevka
-      ```
-    * Search for other variants using `brew search font-iosevka` and install what you want.
-    * Customizable install using Homebrew: see [robertgzr/homebrew-tap](https://github.com/robertgzr/homebrew-tap).
-  * **Linux**
-    * Arch Linux: Install one of the [ttc-iosevka packages](https://archlinux.org/packages/?q=ttc-iosevka).
-    * Ubuntu Linux: Install one of the [fonts-iosevka packages](http://sid.ethz.ch/debian/fonts-iosevka/).
-    * Void Linux: Install the font with `xbps-install font-iosevka`.
-    * Fedora: Install the font(s) from [the COPR here](https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/). Run `dnf search iosevka` to discover available fonts and `dnf install` to install the chosen one(s).
-  * **FreeBSD**: The font can be installed with `pkg install iosevka`.
-  * **OpenBSD**: Run `pkg_info -Q iosevka` to see which Iosevka packages are available. Use `pkg_add` to install the chosen package(s).
+| Format       | Description                            | Download                                                                        |
+| ------------ | -------------------------------------- | ------------------------------------------------------------------------------- |
+| **TTF**      | Desktop fonts (install on your system) | [Download Latest Release](https://github.com/lujstn/inter-mono/releases/latest) |
+| **WOFF2**    | Web fonts for websites                 | [Download Latest Release](https://github.com/lujstn/inter-mono/releases/latest) |
+| **Complete** | All formats included                   | [Download Latest Release](https://github.com/lujstn/inter-mono/releases/latest) |
 
 ## Features
 
-In the official package, Iosevka provides 6 monospace subfamilies (sans-serif and slab-serif, each in the 3 spacings Default, Term and Fixed) and 2 quasi-proportional subfamilies (Aile (sans-serif) and Etoile (slab-serif)). In all the monospace subfamilies, 9 weights (Thin to Heavy), 2 widths (Normal and Extended), and 3 slopes (Upright, Italic and Oblique) are included. In the quasi-proportional subfamilies, the quantity of widths is reduced to 1.
+- **6 Weights**: Light, Regular, Medium, SemiBold, Bold, ExtraBold
+- **2 Styles**: Upright and Oblique (italic)
+- **12 Total Fonts**: Complete weight and style combinations
+- **Optimized Spacing**: Tightened character spacing for improved readability
+- **Enhanced Punctuation**: Weight-dependent colon sizing
+- **Monospace**: Fixed-width for perfect code alignment
 
-![Weights sample](images/weights.light.svg#gh-light-mode-only)![Weights sample](images/weights.dark.svg#gh-dark-mode-only)
+![Comparison](gh_comparison.png)
 
-All versions include the same ranges of characters: Latin letters, Greek letters (including Polytonic), some Cyrillic letters, IPA symbols and common punctuations and some symbols. You can check out the full list [here](http://be5invis.github.io/Iosevka/specimen).
+## Installation
 
-![Languages Sample](images/languages.light.svg#gh-light-mode-only)![Languages Sample](images/languages.dark.svg#gh-dark-mode-only)
+### macOS
 
-<!-- BEGIN Section-Language-List -->
-<!-- THIS SECTION IS AUTOMATICALLY GENERATED. DO NOT EDIT. -->
+1. Download the TTF package from [releases](https://github.com/lujstn/inter-mono/releases/latest)
+2. Unzip the archive
+3. Open the `TTF` folder
+4. Select all `.ttf` files and double-click to install
+5. Or drag them to Font Book
 
-241 Supported Languages: 
+### Windows
 
-Abkhazian, Afar, Afrikaans, Aghem, Akan, Akoose, Albanian, Anii, Aragonese, Armenian, Asturian, Asu, Atsam, Azerbaijani, Bafia, Baluchi (bal_latn), Bambara, Basaa, Bashkir, Basque, Belarusian, Bemba, Bena, Betawi, Bosnian, Breton, Bulgarian, Caddo, Catalan, Cebuano, Central Atlas Tamazight, Chechen, Chickasaw, Chiga, Chinese (zh_latn), Choctaw, Church Slavic, Chuvash, Colognian, Cornish, Corsican, Croatian, Czech, Danish, Duala, Dutch, Embu, English, Erzya, Esperanto, Estonian, Ewe, Ewondo, Faroese, Filipino, Finnish, French, Friulian, Fula, Ga, Galician, Ganda, German, Greek, Guarani, Gusii, Haitian Creole, Hausa, Hawaiian, Hindi (Latin), Hungarian, Icelandic, Ido, Igbo, Inari Sami, Indonesian, Interlingua, Interlingue, Inuktitut (iu_latn), Irish, Italian, Javanese, Jju, Jola-Fonyi, Kabuverdianu, Kabyle, Kaingang, Kako, Kalaallisut, Kalenjin, Kamba, Kara-Kalpak, Kazakh, Kenyang, Kikuyu, Kinyarwanda, Konkani (kok_latn), Koyra Chiini, Koyraboro Senni, Kpelle, Kurdish, Kuvi, Kwasio, Kyrgyz, Kʼicheʼ, Lakota, Langi, Latgalian, Latin, Latvian, Ligurian, Lingala, Lithuanian, Lojban, Lombard, Low German, Lower Sorbian, Luba-Katanga, Lule Sami, Luo, Luxembourgish, Luyia, Macedonian, Machame, Makhuwa, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Mapuche, Masai, Meru, Metaʼ, Mi'kmaw, Mohawk, Moksha, Mongolian, Morisyen, Mundang, Muscogee, Māori, Nama, Navajo, Ngiemboon, Ngomba, Nheengatu, Nigerian Pidgin, North Ndebele, Northern Frisian, Northern Sami, Northern Sotho, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Nuer, Nyanja, Nyankole, Obolo, Occitan, Oromo, Ossetic, Papiamento, Pijin, Polish, Portuguese, Prussian, Quechua, Riffian, Romanian, Romansh, Rombo, Rundi, Russian, Rwa, Saho, Samburu, Sango, Sangu, Sardinian, Scottish Gaelic, Sena, Serbian, Shambala, Shona, Sicilian, Sidamo, Silesian, Skolt Sami, Slovak, Slovenian, Soga, Somali, South Ndebele, Southern Sami, Southern Sotho, Spanish, Sundanese, Swahili, Swati, Swedish, Swiss German, Tachelhit (shi_latn), Taita, Tajik, Taroko, Tasawaq, Tatar, Teso, Tok Pisin, Toki Pona, Tongan, Tsonga, Tswana, Turkish, Turkmen, Tuvinian, Tyap, Ukrainian, Upper Sorbian, Uzbek, Vai (vai_latn), Venda, Venetian, Vietnamese, Volapük, Vunjo, Walloon, Walser, Warlpiri, Welsh, Western Frisian, Wolof, Xhosa, Yakut, Yangben, Yoruba, Zarma, Zhuang, Zulu
+1. Download the TTF package from [releases](https://github.com/lujstn/inter-mono/releases/latest)
+2. Unzip the archive
+3. Open the `TTF` folder
+4. Select all `.ttf` files
+5. Right-click and select "Install for all users" (recommended)
 
-<!-- END Section-Language-List -->
+### Linux
 
-### Stylistic Sets
+```bash
+# Download and extract
+unzip InterMono-TTF-*.zip
 
-Monospace Iosevka contains various stylistic sets to change the shape of certain characters. Enabling corresponded OpenType feature to enable.
+# Install fonts
+mkdir -p ~/.local/share/fonts/InterMono
+cp TTF/*.ttf ~/.local/share/fonts/InterMono/
 
-<table><tr><td><h2><a href="doc/stylistic-sets.md">View list of stylistic sets of Iosevka.</a></h2></td></tr></table>
+# Refresh font cache
+fc-cache -f -v
+```
 
+## Usage in Editors
 
-### Character Variants
+### VS Code
 
-Alongside stylistic sets, Monospace Iosevka can also be configured to cherry-pick variants for each character using OpenType. The variants are shown below. To enable, assign the feature tag to the variant index. For example, setting `cv26` to `6` will enable single-storey `a`.
+Add to your `settings.json`:
 
-**Caution :**  Certain software may limit the quantity of OpenType features and drop some of them if the feature list is too long. Please validate your feature configuration to ensure that it worked in your software.
+```json
+{
+	"editor.fontFamily": "'Inter Mono', monospace",
+	"editor.fontSize": 14,
+	"editor.lineHeight": 1.6
+}
+```
 
-<table><tr><td><h2><a href="doc/character-variants.md">View list of character variants of Iosevka.</a></h2></td></tr></table>
+### Terminal Apps
 
-### Ligations
+- **iTerm2**: Preferences → Profiles → Text → Font → Inter Mono
+- **Hyper**: Edit `.hyper.js` and set `fontFamily: 'Inter Mono'`
+- **Terminal.app**: Preferences → Profiles → Font → Change → Inter Mono
+- **Windows Terminal**: Settings → Profiles → Appearance → Font face → Inter Mono
 
-Monospace subfamilies support ligations. Iosevka’s default ligation set is assigned to `calt` feature, though not all of them are enabled by default.
+### JetBrains IDEs
 
-<!-- BEGIN Section-OT-Ligation-Tags-1 -->
-<!-- THIS SECTION IS AUTOMATICALLY GENERATED. DO NOT EDIT. -->
+1. Preferences → Editor → Font
+2. Select "Inter Mono" from the font dropdown
+3. Adjust size as needed (recommended: 13-14pt)
 
-<table>
-<tr>
-<td><code>calt off</td>
-<td>Ligation Off</td>
-</tr>
-<tr>
-<td colspan="2"><img src="images/ligset-calt-0.light.svg#gh-light-mode-only"/><img src="images/ligset-calt-0.dark.svg#gh-dark-mode-only"/></td>
-</tr>
-<tr>
-<td><code>calt</code></td>
-<td>Default setting in text editors</td>
-</tr>
-<tr>
-<td colspan="2"><img src="images/ligset-calt-1.light.svg#gh-light-mode-only"/><img src="images/ligset-calt-1.dark.svg#gh-dark-mode-only"/></td>
-</tr>
-<tr>
-<td><code>dlig</code></td>
-<td>Discretionary ligatures</td>
-</tr>
-<tr>
-<td colspan="2"><img src="images/ligset-dlig-1.light.svg#gh-light-mode-only"/><img src="images/ligset-dlig-1.dark.svg#gh-dark-mode-only"/></td>
-</tr>
-</table>
+## Web Fonts
 
-<!-- END Section-OT-Ligation-Tags-1 -->
+Include in your CSS:
 
-Iosevka supports Language-Specific Ligations, which is the ligation set enabled only under certain languages. These ligation sets are assigned to custom feature tags. To use them, you need to turn **off** `calt` and enable the corresponded feature. The feature list is:
+```css
+@import url("path/to/inter-mono.css");
 
-<table><tr><td><h2><a href="doc/language-specific-ligation-sets.md">View list of language-specific ligations.</a></h2></td></tr></table>
+code,
+pre {
+	font-family: "Inter Mono", monospace;
+}
+```
 
-Please note that, due to the complex interactions when forming ligations, cherry-picking ligation groups will require a custom Iosevka build. The instructions could be seen below.
+Or self-host the WOFF2 files:
+
+```css
+@font-face {
+	font-family: "Inter Mono";
+	src: url("InterMono-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+```
 
 ## Building from Source
 
-<table><tr><td><h2><a href="doc/custom-build.md">Read instructions.</a></h2></td></tr></table>
+Inter Mono is built using Iosevka's build system with custom parameters.
+
+### Prerequisites
+
+- Node.js ≥ 18.0.0
+- `ttfautohint` (for hinting)
+
+### Build Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/lujstn/inter-mono.git
+cd inter-mono
+
+# Install dependencies
+npm install
+
+# Build all formats (TTF + WOFF2)
+npm run build -- contents::InterMono
+
+# Or build specific formats
+npm run build -- ttf::InterMono        # TTF only
+npm run build -- webfont::InterMono    # WOFF2 + CSS only
+```
+
+Fonts will be output to `dist/InterMono/`
+
+### Customization
+
+The build configuration is in `private-build-plans.toml`. Key customization points:
+
+- **Character variants**: Adjust glyph shapes (zero, four, g, etc.)
+- **Weight parameters**: Fine-tune stroke weights in `params/private-parameters.toml`
+- **Spacing**: Modify character width and sidebearings
+
+See [Iosevka's customization guide](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) for detailed options.
+
+## Technical Details
+
+- **Base**: Iosevka 33.3.1
+- **Character Width**: 629 units (1% tighter than default)
+- **Spacing Mode**: `fontconfig-mono` (strict monospace)
+- **Serifs**: Sans-serif throughout
+- **Ligatures**: Disabled (pure monospace)
+- **Special Adjustments**:
+    - Colon punctuation scaled by weight (1.05-1.25×)
+    - ExtraBold stroke enhancement (1.05× multiplier)
+    - Reduced colon side bearing (1px)
+
+## Weights
+
+| Weight    | CSS Value | Shape Value | Use Case                     |
+| --------- | --------- | ----------- | ---------------------------- |
+| Light     | 300       | 300         | Large displays, minimal text |
+| Regular   | 400       | 400         | General coding, default      |
+| Medium    | 500       | 520         | Emphasis, headings           |
+| SemiBold  | 600       | 660         | Strong emphasis              |
+| Bold      | 700       | 825         | High contrast, accessibility |
+| ExtraBold | 800       | 1000        | Maximum impact, large sizes  |
+
+## Contributing
+
+Inter Mono is a custom Iosevka build. Contributions are welcome!
+
+- Report issues: [GitHub Issues](https://github.com/lujstn/inter-mono/issues)
+- Submit PRs for build configuration improvements
+- Share your editor configurations
+
+## License
+
+Inter Mono inherits Iosevka's license:
+
+- **Font**: [SIL Open Font License 1.1](https://github.com/be5invis/Iosevka/blob/main/LICENSE.md)
+- **Build Scripts**: MIT License
+
+## Credits
+
+- **eeelbrens**: [eeelbrens](https://github.com/eeelbrens) - for writing the original [custom Iosevka script](https://github.com/rsms/inter/issues/128#issuecomment-2816578686) 🙇
+- **Iosevka**: [Belleve Invis](https://github.com/be5invis/Iosevka) - Base font system
+- **Inter**: [Rasmus Andersson](https://rsms.me/inter/) - Design inspiration
+- **SF Mono**: Apple - Additional design reference
 
 ---
 
-![Family Matrix](images/matrix.light.svg#gh-light-mode-only)![Family Matrix](images/matrix.dark.svg#gh-dark-mode-only)
+Made with ❤️ by [lujstn](https://github.com/lujstn)

@@ -31,6 +31,8 @@ export async function getParametersT(argv) {
 		let para = Parameters.init(deepClone(parametersData), argv);
 		VariantData.apply(deepClone(rawVariantsData), para, argv);
 		applyLigationData(deepClone(rawLigationData), para, argv);
+		para.family = argv.menu.family;
+		para.weight = argv.shape.weight;
 		if (argv.subset) para.subset = argv.subset;
 		if (argv.excludedCharRanges) para.excludedCharRanges = argv.excludedCharRanges;
 		if (argv.compatibilityLigatures) para.compatibilityLigatures = argv.compatibilityLigatures;

@@ -157,6 +157,8 @@ glyph-block Symbol-Punctuation-Small : begin
 		create-glyph "colon.\(suffix)" : glyph-proc
 			include [refer-glyph "period.\(suffix)"] AS_BASE ALSO_METRICS
 			include [refer-glyph "xhPeriod.\(suffix)"]
+			# Reduce right padding for Inter Mono by 1px
+			if (para.family === "Inter Mono") : set-width (Width - 1)
 
 			create-forked-glyph "colon/mid.\(suffix)" : glyph-proc
 				include : ApparentTranslate 0 (SymbolMid - XH / 2)

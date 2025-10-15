@@ -1,0 +1,212 @@
+# Private parameters for Inter Mono customization
+# Extends weight range beyond 900 to support weight 1250
+
+[shapeWeight.blend.1000]
+stroke = 135
+contrast = 1.28
+sb = 50
+essRatio = 0.98
+dotSize = 210
+periodSize = 230
+
+jut = 98
+vjut = 210
+longjut = 180
+longvjut = 180
+archDepth = 222
+smallArchDepth = 210
+rbalance = 48
+rbalance2 = 28
+tbalance = 48
+tbalance2 = 43
+jbalance = 66
+fbalance = 8
+onebalance = 32
+cthin = 0.74
+cthinb = 0.48
+vtipfine = 0.75
+vtipfineSlab = 0.85
+
+hook = 202
+ahook = 167
+shook = 157
+jhook = 172
+hookx = 175
+rhook = 110
+tailX = 150
+tailY = 147
+
+[shapeWeight.blend.1050]
+stroke = 128
+contrast = 1.24
+sb = 53
+essRatio = 1.01
+dotSize = 200
+periodSize = 220
+
+jut = 100
+vjut = 213
+longjut = 182
+longvjut = 182
+archDepth = 225
+smallArchDepth = 213
+rbalance = 47
+rbalance2 = 29
+tbalance = 48
+tbalance2 = 44
+jbalance = 67
+fbalance = 9
+onebalance = 33
+cthin = 0.73
+cthinb = 0.47
+vtipfine = 0.74
+vtipfineSlab = 0.84
+
+hook = 205
+ahook = 170
+shook = 160
+jhook = 175
+hookx = 177
+rhook = 110
+tailX = 152
+tailY = 149
+
+[shapeWeight.blend.1100]
+stroke = 134
+contrast = 1.25
+sb = 52
+essRatio = 1.00
+dotSize = 205
+periodSize = 225
+
+jut = 102
+vjut = 216
+longjut = 184
+longvjut = 184
+archDepth = 228
+smallArchDepth = 216
+rbalance = 46
+rbalance2 = 30
+tbalance = 49
+tbalance2 = 45
+jbalance = 68
+fbalance = 10
+onebalance = 34
+cthin = 0.72
+cthinb = 0.46
+vtipfine = 0.73
+vtipfineSlab = 0.83
+
+hook = 208
+ahook = 173
+shook = 163
+jhook = 178
+hookx = 179
+rhook = 110
+tailX = 154
+tailY = 151
+
+[shapeWeight.blend.1150]
+stroke = 140
+contrast = 1.26
+sb = 51
+essRatio = 0.99
+dotSize = 210
+periodSize = 230
+
+jut = 104
+vjut = 219
+longjut = 186
+longvjut = 186
+archDepth = 231
+smallArchDepth = 219
+rbalance = 45
+rbalance2 = 31
+tbalance = 50
+tbalance2 = 46
+jbalance = 69
+fbalance = 11
+onebalance = 35
+cthin = 0.71
+cthinb = 0.45
+vtipfine = 0.72
+vtipfineSlab = 0.82
+
+hook = 211
+ahook = 176
+shook = 166
+jhook = 181
+hookx = 181
+rhook = 110
+tailX = 156
+tailY = 153
+
+[shapeWeight.blend.1200]
+stroke = 146
+contrast = 1.27
+sb = 50
+essRatio = 0.98
+dotSize = 215
+periodSize = 235
+
+jut = 106
+vjut = 222
+longjut = 188
+longvjut = 188
+archDepth = 234
+smallArchDepth = 222
+rbalance = 44
+rbalance2 = 32
+tbalance = 51
+tbalance2 = 47
+jbalance = 70
+fbalance = 12
+onebalance = 36
+cthin = 0.70
+cthinb = 0.44
+vtipfine = 0.71
+vtipfineSlab = 0.81
+
+hook = 214
+ahook = 179
+shook = 169
+jhook = 184
+hookx = 183
+rhook = 110
+tailX = 158
+tailY = 155
+
+[shapeWeight.blend.1250]
+stroke = 152
+contrast = 1.28
+sb = 49
+essRatio = 0.97
+dotSize = 220
+periodSize = 240
+
+jut = 108
+vjut = 225
+longjut = 190
+longvjut = 190
+archDepth = 237
+smallArchDepth = 225
+rbalance = 43
+rbalance2 = 33
+tbalance = 52
+tbalance2 = 48
+jbalance = 71
+fbalance = 13
+onebalance = 37
+cthin = 0.69
+cthinb = 0.43
+vtipfine = 0.70
+vtipfineSlab = 0.80
+
+hook = 217
+ahook = 182
+shook = 172
+jhook = 187
+hookx = 185
+rhook = 110
+tailX = 160
+tailY = 157

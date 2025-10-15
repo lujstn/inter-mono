@@ -1594,7 +1594,7 @@ function nValidate(key, v, validator) {
 	return v;
 }
 
-const VlShapeWeight = { validate: x => x >= 100 && x <= 1000 };
+const VlShapeWeight = { validate: x => x >= 100 && x <= 1250 };
 const VlCssWeight = { validate: x => x > 0 && x <= 1000 };
 const VlMenuWeight = VlCssWeight;
 
