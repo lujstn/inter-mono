@@ -21,7 +21,7 @@ A monospace variation of [Iosevka](https://github.com/be5invis/Iosevka), designe
 - **Enhanced Punctuation**: Weight-dependent colon sizing
 - **Monospace**: Fixed-width for perfect code alignment
 
-![Comparison](https://github.com/lujstn/inter-mono/raw/main/gh_comparison.jpg)
+![Comparison](https://github.com/lujstn/inter-mono/raw/main/gh_n_comparison.jpg)
 
 ## Installation
 
