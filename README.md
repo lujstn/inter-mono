@@ -1,4 +1,4 @@
-![Inter Mono](gh_cover.png)
+![Inter Mono](https://github.com/lujstn/inter-mono/raw/main/gh_cover.jpg)
 
 # Inter Mono
 
@@ -21,7 +21,7 @@ A monospace variation of [Iosevka](https://github.com/be5invis/Iosevka), designe
 - **Enhanced Punctuation**: Weight-dependent colon sizing
 - **Monospace**: Fixed-width for perfect code alignment
 
-![Comparison](gh_comparison.png)
+![Comparison](https://github.com/lujstn/inter-mono/raw/main/gh_comparison.jpg)
 
 ## Installation
 
