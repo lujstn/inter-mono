@@ -10,12 +10,12 @@ one = "base"
 two = "straight-neck-serifless"
 four = "semi-open-serifless"
 five = "oblique-arched-serifless"
-six = "closed-contour"
+six = "straight-bar"
 eight = "two-circles"
-nine = "closed-contour"
+nine = "straight-bar"
 zero = "oval-slashed"
 capital-g = "toothless-rounded-serifless-hooked"
-capital-j = "serifless"
+capital-j = "serifed"
 capital-m = "flat-bottom-serifless"
 capital-q = "crossing"
 capital-w = "straight-flat-top-serifless"
@@ -37,9 +37,12 @@ asterisk = "hex-mid"
 brace = "straight"
 guillemet = "straight"
 number-sign = "slanted"
-at = "fourfold"
+at = "fourfold-solid-inner-tall"
 percent = "rings-continuous-slash"
 lig-equal-chain = "without-notch"
+ascii-single-quote = "straight"
+caret = "high"
+punctuation-dot = "square"
 
 [buildPlans.InterMono.variants.oblique]
 a = "single-storey-serifless"
@@ -79,7 +82,7 @@ menu = 800
 css = 800
 
 [buildPlans.InterMono.widths.Normal]
-shape = 620
+shape = 630
 menu = 5
 css = "normal"
 
